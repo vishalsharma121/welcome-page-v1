@@ -76,7 +76,7 @@ const ProjectSection = () => {
     <div className="max-w-full md:max-w-[58.333333%] container mx-auto p-4 sm:p-8">
       <Toaster position="top-right" reverseOrder={false} />
 
-      <h1 className="text-[20px] font-normal">Welcome, Vishal</h1>
+      <h1 className="text-[20px] font-normal">Welcome, Starkedge</h1>
 
       {/* Create Project Section */}
       <div className="flex flex-col sm:flex-row justify-between items-center gap-3 w-full bg-[#ebf5f3] rounded-[15px] min-h-[360px] mt-5 p-4 sm:p-0">
@@ -185,7 +185,7 @@ const ProjectSection = () => {
             </div>
 
             {/* View Button */}
-            <button className="text-[#0a474c] border border-[#0a474c80] px-[15px] py-[5px] text-[0.875rem] mt-4 w-full rounded-[6px] hover:bg-[rgba(10,71,76,0.04)] hover:border-[#0a474c] transition">
+            <button className="cursor-pointer text-[#0a474c] border border-[#0a474c80] px-[15px] py-[5px] text-[0.875rem] mt-4 w-full rounded-[6px] hover:bg-[rgba(10,71,76,0.04)] hover:border-[#0a474c] transition">
               View
             </button>
             </div>
