@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <div className="flex items-center space-x-4">
         <div className="w-[34px] h-[34px] text-[#0a474c] cursor-pointer bg-white flex justify-center items-center font-roboto">
-          <span className="text-[1.25rem]">S</span>
+          <span className="text-[1.25rem]">V</span>
         </div>
       </div>
     </header>
