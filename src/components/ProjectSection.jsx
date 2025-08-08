@@ -100,7 +100,7 @@ const ProjectSection = () => {
               />
               <button
                 type="submit"
-                className="px-[24px] py-[6px] text-white bg-[#0a474c] text-[0.875rem] mt-4 rounded-[6px]"
+                className="cursor-pointer px-[24px] py-[6px] text-white bg-[#0a474c] text-[0.875rem] mt-4 rounded-[6px]"
               >
                 Create
               </button>
