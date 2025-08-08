@@ -5,8 +5,10 @@ const Header = () => {
   return (
 <header className="flex justify-between items-center gap-3 w-full h-16 px-4 z-100 bg-white box-border sticky top-0">
       <div className="flex items-center space-x-2">
-        <div className="w-[50px] h-[50px] p-1">
+        <div className="p-1">
+        <div className="w-[50px] h-[50px]">
            <img src={LogoImage} alt="Logo" />
+        </div>
         </div>
       </div>
       <div className="flex items-center space-x-4">
