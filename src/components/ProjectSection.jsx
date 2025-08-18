@@ -80,7 +80,7 @@ const ProjectSection = () => {
         <h1 className="text-[20px] font-normal">Welcome, Starkedge</h1>
 
         {/* Create Project Section */}
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-3 w-full bg-primaryone rounded-[15px] min-h-[360px] mt-5 p-4 sm:p-0">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-3 w-full bg-[#ebf5f3] rounded-[15px] min-h-[360px] mt-5 p-4 sm:p-0">
           {/* Left Section */}
           <div className="w-full sm:w-7/12 p-0 sm:p-3 flex items-center justify-center">
             <div className="w-full max-w-full sm:max-w-10/12">
