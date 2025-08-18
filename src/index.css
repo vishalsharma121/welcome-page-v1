@@ -1,18 +1,26 @@
 @import "tailwindcss";
 
 
-.font-roboto {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+@theme {
+  --color-primary: #0060df;
+  --color-secondary: #f8f8f8;
+  --color-accent: #fd6f53;
+  --font-color: #000000;
+  --primaryone: #ebf5f3;
 }
 
-.font-inter, body{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+@layer base {
+.theme-dark {
+  --color-primary: #17ed90;
+  --color-secondary: #2a2c2d;
+  --color-accent: #12cdea;
+  --font-color: #ffffff;
+  --primaryone: #3d4347;
+}
+
+body {
+  background-color: var(--color-secondary);
+  color: var(--font-color);
+  transition: background 0.3s, color 0.3s;
+}
 }

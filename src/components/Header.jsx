@@ -1,5 +1,6 @@
 import React from 'react';
 import LogoImage from '../assets/logo.png';
+import ThemeToggle from './ThemeToggle';
 
 const Header = () => {
   return (
@@ -12,6 +13,7 @@ const Header = () => {
         </div>
       </div>
       <div className="flex items-center space-x-4">
+        <ThemeToggle />
         <div className="w-[34px] h-[34px] text-[#0a474c] cursor-pointer bg-white flex justify-center items-center font-roboto">
           <span className="text-[1.25rem]">S</span>
         </div>
