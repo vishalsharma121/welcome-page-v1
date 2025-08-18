@@ -80,7 +80,7 @@ const ProjectSection = () => {
         <h1 className="text-[20px] font-normal">Welcome, Starkedge</h1>
 
         {/* Create Project Section */}
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-3 w-full bg-[#ebf5f3] rounded-[15px] min-h-[360px] mt-5 p-4 sm:p-0">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-3 w-full bg-one rounded-[15px] min-h-[360px] mt-5 p-4 sm:p-0">
           {/* Left Section */}
           <div className="w-full sm:w-7/12 p-0 sm:p-3 flex items-center justify-center">
             <div className="w-full max-w-full sm:max-w-10/12">
@@ -143,7 +143,7 @@ const ProjectSection = () => {
         <h2 className="mt-8 text-[20px] font-normal py-4">Recent Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-1">
           {projects.map((project, index) => (
-            <div key={index} className="p-[20px] rounded-[8px] bg-white">
+            <div key={index} className="p-[20px] rounded-[8px] bg-two">
               <div className="h-full w-full flex flex-wrap box-border">
                 <div className="w-full">
                   <h2 className="text-[25px] font-inter font-bold leading-[1.2] tracking-[1px] [word-spacing:2px] mb-2">

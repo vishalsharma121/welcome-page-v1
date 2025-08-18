@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        secondary: "#282624",
+        pinkk: "#282624",
         primaryone: "#EE6B3B",
       },
     },

@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen bg-[--color-secondary: #f8f8f8;]">
+      <div className="min-h-screen bg-secondary">
       <Header />
       <main>
         <ProjectSection />

@@ -6,7 +6,8 @@
   --color-secondary: #f8f8f8;
   --color-accent: #fd6f53;
   --font-color: #000000;
-  --primaryone: #ebf5f3;
+  --color-one: #ebf5f3;
+  --color-two: #fff;
 }
 
 @layer base {
@@ -15,7 +16,8 @@
   --color-secondary: #2a2c2d;
   --color-accent: #12cdea;
   --font-color: #ffffff;
-  --primaryone: #3d4347;
+  --color-one: #3d4347;
+  --color-two: #3d4347;
 }
 
 body {
