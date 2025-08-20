@@ -102,7 +102,7 @@ const ProjectSection = () => {
                     }
                   }}
                   placeholder="Enter project name"
-                  className="border p-2 rounded w-full"
+                  className="border p-2 rounded w-full text-black"
                 />
 
                 {/* Show counter only when typing */}
@@ -121,7 +121,7 @@ const ProjectSection = () => {
                
                 <button
                   type="submit"
-                  className="cursor-pointer px-[24px] py-[6px] text-white bg-[#0a474c] text-[0.875rem] mt-4 rounded-[6px]"
+                  className="cursor-pointer px-[24px] py-[6px] text-white text-[0.875rem] mt-4 rounded-[6px] bg-btncolor"
                 >
                   Create
                 </button>
@@ -175,7 +175,7 @@ const ProjectSection = () => {
                         <div className="text-[14px] font-inter font-normal leading-[1.334] tracking-[0em] mb-[0.35em]">
                           Active plan
                         </div>
-                        <div className="text-[16px] font-inter font-semibold leading-[1.235] tracking-[0.00735em] text-[#0a474c] uppercase">
+                        <div className="text-[16px] font-inter font-semibold leading-[1.235] tracking-[0.00735em] text-[#0a474c] uppercase text-btncolor">
                           {project.plan}
                         </div>
                       </div>

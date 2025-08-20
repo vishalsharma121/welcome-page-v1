@@ -6,8 +6,11 @@
   --color-secondary: #f8f8f8;
   --color-accent: #fd6f53;
   --font-color: #000000;
+  --color-white: #fff;
+  --color-black: #000;
   --color-one: #ebf5f3;
   --color-two: #fff;
+  --color-btncolor:#0a474c;
 }
 
 @layer base {
@@ -16,8 +19,11 @@
   --color-secondary: #2a2c2d;
   --color-accent: #12cdea;
   --font-color: #ffffff;
+  --color-white: #000;
+  --color-black: #fff;
   --color-one: #3d4347;
   --color-two: #3d4347;
+  --color-btncolor:#FFF;
 }
 
 body {

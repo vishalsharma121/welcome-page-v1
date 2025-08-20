@@ -1,23 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import './App.css'
 import Header from './components/Header'
 import ProjectSection from './components/ProjectSection'
-import ProjectCard from './components/ProjectCard'
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import Home from "./pages/Home";
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+    <Router>
       <div className="min-h-screen bg-secondary">
-      <Header />
-      <main>
-        <ProjectSection />
-      </main>
-    </div>
+        <Header />
+        <main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+        </main>
+      </div>
+    </Router>
       </>
   )
 }
